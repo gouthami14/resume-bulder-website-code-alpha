@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: lightblue;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background-color: #fff;   
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+@media(max-width:100px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.left-container{
+    background-color: #003147;
+    padding: 40px;
+    width: 270px;
+}
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+}
+.img-container{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+img{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+h2{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.role{
+    font-weight: 300;
+    font-size: 20px;
+}
+.contact-container, .education-container, .language-container{
+    padding-top: 40px;
+}
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.list-container{
+    position: relative;
+}
+.list-item{
+    list-style-type: none;
+    color: #fff;
+    position: relative;
+    cursor:  pointer;
+    margin: 10px;
+}
+.icon{
+    color: #03a9f4;
+    font-size: 18px;
+    width: 30px;
+    display: inline-block;
+}
+.text{
+    color: #fff;
+    font-weight: 300;
+}
+.list-container h5{
+    color: #03a9f4;
+    font-weight: 500;
+}
+.qualification{
+    color: #fff;
+    font-weight: 400;
+}
+h4{
+    color: #fff;
+    font-weight: 200;
+}
+.percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: #081921;
+    display: block;
+    margin-top: 5px;
+}
+.how-much{
+    background-color: #03a9f4;
+    top: 0;
+    left: 0;
+    height: 100%;
+    position: absolute;
+}
+/* right-side of the page */
+.right-container{
+    background-color: #fff;
+    position: relative;
+    padding: 40px;
+}
+.title-one, .title-two{
+    color: #081921;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.about,.skills, .interest{
+    margin-bottom: 50px;
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+p{
+    color: #333;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+.box h4{
+    color: #2a7da2;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.year-company{
+    min-width: 150px;
+}
+.year-company h5{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+.skill{
+    color: #081921;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.list-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+@media (max-width: 576px) {
+    .list-con{
+        display: flex;
+        flex-direction: row;
+    }
+}
+.item{
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.fa{
+    color: #03a9f4;
+    font-size: 18px;
+    margin: 4px;
+    width: 20px;
+}
